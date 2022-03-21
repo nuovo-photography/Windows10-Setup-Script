@@ -10,17 +10,21 @@ Automated Windows 10 Configuration for **Nuovo Artistic Studios** Computers.
 
 ## Features
 
--Auto Installs Chocolatey Package Manager
--Automatically adds Windows PC to Jumpcloud
--Auto installs **Slack**, **Google Chrome**, **VLC**, **Zoom**, **Sysinternals** & **Immunet**.
--Automatically downloads packages for **Krisp** & **RC-Phone** to **'C:\temp'** (they will not be installed automatically, install has to be performed manually for both **Krisp** & **RC-Phone**)
+- Auto Installs Chocolatey Package Manager
+- Automatically adds Windows PC to Jumpcloud
+- Auto installs **Slack**, **Google Chrome**, **VLC**, **Zoom**, **Sysinternals** & **Immunet**.
+- Automatically downloads packages for **Krisp** & **RC-Phone** to **'C:\temp'** (they will not be installed automatically, install has to be performed manually for both **Krisp** & **RC-Phone**)
 
 ## Configuration
 
--Automatically disables Built-in OS Tracking
--Removes Pre-Installed Bloat Packages
--Re-writes to parts of the OS for increased security
--Enables various security settings (Microsoft Defender Cloud MAPS Settings)
+- Automatically disables Built-in OS Tracking
+- Removes Pre-Installed Bloat Packages
+- Re-writes to parts of the OS for increased security
+- Enables various security settings (Microsoft Defender Cloud MAPS Settings)
+
+## Optional
+
+Included 2 Pictures that can be used for both Lock Screens & Wallpapers
 
 ## License
 
