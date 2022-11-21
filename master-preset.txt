@@ -2,39 +2,17 @@ RequireAdmin
 
 SetUnrestrictedScripts
 
+ChangeNamePC
+
 ChocoInstall
 
 BasicsInstall
 
 JumpCloudInstall
 
-ServiceTrackingStop
+InstallHyperV
 
-DisableTelemetry
-
-EnableSmartScreen
-
-DisableWebSearch
-
-DisableAppSuggestions
-
-DisableLocation
-
-DisableMapUpdates
-
-DisableFeedback
-
-DisableTailoredExperiences
-
-DisableAdvertisingID
-
-DisableCortana
-
-DisableErrorReporting
-
-DisableDiagTrack
-
-DisableClearRecentFiles
+EnableDefenderAppGuard
 
 EnableDefender
 
@@ -44,21 +22,27 @@ EnableFirewall
 
 EnableCIMemoryIntegrity
 
-EnableDefenderAppGuard
+EnableCtrldFolderAccess
 
 EnableDotNetStrongCrypto
 
-SetCurrentNetworkPrivate
+EnableUpdateMSRT
 
-SetUnknownNetworksPublic
+EnableUpdateDriver
+
+EnableMaintenanceWakeUp
+
+EnableClipboardHistory
+
+EnableSmartScreen
 
 EnableNetDevicesAutoInst
-
-DisableSMB1
 
 EnableRemoteAssistance
 
 EnableRemoteDesktop
+
+EnableNTFSLongPaths
 
 EnableQoS
 
@@ -66,17 +50,7 @@ EnableMaintenanceWakeUp
 
 EnableClipboardHistory
 
-DisableSharedExperiences
-
-DisableAutoplay
-
-DisableAutorun
-
-DisableRestorePoints
-
 EnableStorageSense
-
-DisableDefragmentation
 
 EnableSuperfetch
 
@@ -84,57 +58,43 @@ EnableSwapFile
 
 EnableRecycleBin
 
-DisableNTFSLastAccess
-
 EnableFastStartup
-
-DisableAutoRebootOnCrash
-
-DisableActionCenter
 
 EnableLockScreenRS1
 
-HideNetworkFromLockScreen
-
-ShowShutdownOnLockScreen
-
-DisableLockScreenBlur
-
-DisableAeroShake
-
-ShowTaskManagerDetails
-
-ShowFileOperationsDetails
-
 EnableFileDeleteConfirm
-
-HideTaskbarSearch
-
-HideTaskbarPeopleIcon
-
-ShowLargeTaskbarIcons
-
-DisableShortcutInName
-
-HideShortcutArrow
-
-SetControlPanelSmallIcons
-
-SetVisualFXPerformance
 
 EnableDarkTheme
 
 EnableNumlock
 
+EnableThumbnails
+
+EnableThumbnailCache
+
+EnableFullscreenOptims
+
+EnableIEEnhancedSecurity
+
+SetCurrentNetworkPrivate
+
+SetUnknownNetworksPublic
+
+SetPhotoViewerAssociation
+
+SetControlPanelSmallIcons
+
+SetVisualFXPerformance
+
 SetSoundSchemeNone
 
-DisableStartupSound
+SetBIOSTimeLocal
+
+ShowLargeTaskbarIcons
 
 ShowExplorerTitleFullPath
 
 ShowKnownExtensions
-
-HideHiddenFiles
 
 ShowFolderMergeConflicts
 
@@ -144,27 +104,109 @@ ShowThisPCOnDesktop
 
 ShowRecycleBinOnDesktop
 
+ShowShutdownOnLockScreen
+
+ShowTaskManagerDetails
+
+ShowFileOperationsDetails
+
+HideShortcutArrow
+
+HideHiddenFiles
+
+HideSuperHiddenFiles
+
+HideShareMenu
+
 Hide3DObjectsFromExplorer
 
 Hide3DObjectsFromThisPC
 
 HideIncludeInLibraryMenu
 
-EnableThumbnails
+HideNetworkFromLockScreen
 
-EnableThumbnailCache
+HideTaskbarSearch
+
+HideTaskbarPeopleIcon
+
+HideTaskView
+
+DisableTelemetry
+
+DisableIndexing
+
+DisableBackgroundApps
+
+DisableSensors
+
+DisableWebSearch
+
+DisableAppSuggestions
+
+DisableLocation
+
+DisableSleepButton
+
+DisableMapUpdates
+
+DisableFeedback
+
+DisableTailoredExperiences
+
+DisableAdvertisingID
+
+DisableWebLangList
+
+DisableCortana
+
+DisableBiometrics
+
+DisableSearchAppInStore
+
+DisableErrorReporting
+
+DisableDiagTrack
+
+DisableClearRecentFiles
+
+DisableSMB1
+
+DisableSharedExperiences
+
+DisableMediaSharing
+
+DisableWAPPush
+
+DisableAutoplay
+
+DisableAutorun
+
+DisableRestorePoints
+
+DisableDefragmentation
+
+DisableNTFSLastAccess
+
+DisableHibernation
+
+DisableScriptHost
+
+DisableAutoRebootOnCrash
+
+DisableActionCenter
+
+DisableLockScreenBlur
+
+DisableAeroShake
+
+DisableShortcutInName
+
+DisableStartupSound
 
 DisableOneDrive
 
-UninstallOneDrive
-
-UninstallMsftBloat
-
-UninstallThirdPartyBloat
-
 DisableXboxFeatures
-
-EnableFullscreenOptims
 
 DisableEdgePreload
 
@@ -176,14 +218,34 @@ DisableIEFirstRun
 
 DisableFirstLogonAnimation
 
-EnableIEEnhancedSecurity
+DisableNetDevicesAutoInst
+
+DisableConnectionSharing
+
+DisableSharingWizard
+
+DisableThumbsDBOnNetwork
+
+UninstallOneDrive
+
+UninstallMsftBloat
+
+UninstallThirdPartyBloat
 
 UnpinStartMenuTiles
 
 UninstallInternetExplorer
 
-SetPhotoViewerAssociation
+UninstallWindowsStore
+
+UninstallMediaPlayer
+
+UninstallWorkFolders
 
 SecureSMB
 
+ServiceTrackingStop
+
 BulkPrivacy
+
+Restart

@@ -4621,7 +4621,8 @@ ForEach ($Drive in $DriveLetters) {
 ##########
 
 Function ChangeNamePC {
-	Rename-Computer -NewName "LENMIA-1" -Force -Restart
+    $PCnameMain = Read-Host "Please enter a name for this computer"
+	Rename-Computer -NewName $PCnameMain -Force
 }
 
 Function SetUnrestrictedScripts {
@@ -4638,15 +4639,15 @@ Function JumpCloudInstall {
 }
 
 Function BasicsInstall {
-	choco install dotnetfx powershell sysinternals googlechrome slack vlc zoom immunet -y
+	choco install dotnetfx powershell sysinternals jre8 googlechrome googledrive slack vlc zoom greenshot adobereader -y
 }
 
 Function KrispDownload {
-	Invoke-WebRequest -Uri "https://cdn.krisp.ai/win/release/v1.31/krisp-v1.31.4-x64.msi" -Outfile C:\temp\Krisp.msi
+	Invoke-WebRequest -Uri "https://cdn.krisp.ai/win/release/v1.31/krisp-v1.31.4-x64.msi" -Outfile C:\Users\Default\Desktop\Krisp.msi
 }
 
 Function RCPhoneDownload {
-	Invoke-WebRequest -Uri "https://downloads.ringcentral.com/sp/RingCentralForWindows" -Outfile C:\temp\RCPhone.msi
+	Invoke-WebRequest -Uri "https://downloads.ringcentral.com/sp/RingCentralForWindows" -Outfile C:\Users\Default\Desktop\RCPhone.msi
 }
 
 ##########
