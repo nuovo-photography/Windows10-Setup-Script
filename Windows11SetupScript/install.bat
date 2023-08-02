@@ -1,0 +1,1 @@
+powershell -NoProfile -ExecutionPolicy RemoteSigned -File "%~dp0Win11.ps1" -include "%~dp0Win11.psm1" -preset "master-preset.txt" -log "NSX-Install.log"
